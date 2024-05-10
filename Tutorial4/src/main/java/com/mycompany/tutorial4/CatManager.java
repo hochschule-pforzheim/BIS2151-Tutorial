@@ -36,43 +36,7 @@ public class CatManager {
     }
     
     
-    // Deleting a cat using the ID
-    public boolean deleteCat(int id) {
-        for (int i = 0; i < count; i++) {
-            if (cats[i].getId() == id) {
-                // Shift the remaining cats to the left
-                for (int j = i; j < count - 1; j++) {
-                    cats[j] = cats[j + 1];
-                }
-                cats[count - 1] = null;
-                count--;
-                return true;
-            }
-        }
-        return false;
-    }
     
-    // Call a cat using the ID
-    public Cat getCatById(int id) {
-        for (int i = 0; i < count; i++) {
-            if (cats[i].getId() == id) {
-                return cats[i];
-            }
-        }
-        return null;
-    }
-
-    // Updating a cat using the ID
-    public boolean updateCat(int id, String newName, int newAge) {
-        for (int i = 0; i < count; i++) {
-            if (cats[i].getId() == id) {
-                cats[i].setName(newName);
-                cats[i].setAge(newAge);
-                return true;
-            }
-        }
-        return false;
-    }
 }
 
 
