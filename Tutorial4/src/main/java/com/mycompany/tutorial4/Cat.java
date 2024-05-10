@@ -8,19 +8,28 @@ package com.mycompany.tutorial4;
  *
  * @author Daniela
  */
-class Cat extends Animal implements Robot{
+class Cat {
+    private String name;
     private int age;
     private int id;
 
     // Constructor
     public Cat(String name, int age, int id) {
-        super(name);
+        this.name = name;
         this.age = age;
         this.id = id;
     }
 
   
     // Getter and Setter methodes
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+    
     public int getAge() {
         return age;
     }
@@ -42,23 +51,4 @@ class Cat extends Animal implements Robot{
                 '}';
     }
 
-    @Override
-    public void makeNoise() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public void performAction() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public String getStatus() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public void recharge() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
