@@ -20,10 +20,7 @@ public class Tutorial4 {
         
         cm.getAllCats();
         
-        cm.deleteCat(2);
-        cm.updateCat(1, "Katze1_2.0", 11);
         cm.getAllCats();
         
-        cm.getCatById(3);
     }
 }
