@@ -18,8 +18,7 @@ public class Tutorial6 {
         
         ProfessorManager myManager = new ProfessorManager();    // object of Professor Manager class is created here
         
-        
-        myManager.quickSort();                                  // calls quickSort() is called 
+        myManager.quickSort();                                  // quickSort() method is called 
         
     }
 }
