@@ -145,4 +145,11 @@ public class ProfessorManager {
         System.out.println("The ArrayList has been sorted according to their ID!");
         printAllProfs();
     }
+        public void sortByJava(){
+        ProfComparator comp = new ProfComparator();                               // create a comparator object
+        profList.sort(comp);
+        System.out.println("The ArrayList has been sorted according to the Stalls' rating!");
+        printAllProfs(); 
+    }
+}
 }
