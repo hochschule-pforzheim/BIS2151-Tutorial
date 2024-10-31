@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package test3;
+/**
+* Taks: 
+* Create a new class called Person.
+* A Person has an instance variable: an integer called age. 
+* In the constructor a Person gets its  age. Age has to be bigger than 0. 
+* Within the constructor, check if the provided age is correct. 
+* Hint: what are control flows?
+
+* If yes-> assign it:  this.age= age; 
+* else-> print out an error message and use “System.exit(0); “
+*/
 
 /**
  *
- * @author donat
+ * @author donata
  */
+
 public class Person {
     private int age;
     
