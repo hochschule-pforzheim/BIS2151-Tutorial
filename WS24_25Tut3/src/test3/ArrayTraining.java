@@ -6,6 +6,8 @@ package test3;
 * Replace the value 1 with value 8,  adressing this change by using the index.
 * How long is the Array? Hint: What is its length? 
 * Print the Array as console output by using a loop.
+* Create another static method with an Array that consists of single letters of type characters holding the values {H,A,L,L,O}. Hint: how the write characters?
+* Print this array out in reverse.
  */
 
 /**
