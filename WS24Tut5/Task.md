@@ -6,12 +6,12 @@ This task will introduce you to ArrayLists and CRUD operations by building a sim
 
 ## Task Overview
 
-Create a Java program to manage a library’s collection of books using an ArrayList. The program should allow users to add, view, update, and delete books with a text-based menu for interaction.
+Create a Java program to manage a library’s collection of books using an ArrayList. The program should allow users to create (add), read (view), update, and delete books with a text-based menu for interaction.
 
 ### Objectives
 1. **Learn ArrayList basics** – adding, accessing, and removing items.
 2. **Practice CRUD operations** – Create, Read, Update, Delete.
-3. **Build with OOP** – Create and use a `Book` class.
+3. **Build using inputs** – Create and use a `Book` class.
 
 ---
 
